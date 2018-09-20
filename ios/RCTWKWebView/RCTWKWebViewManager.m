@@ -1,6 +1,7 @@
 #import "RCTWKWebViewManager.h"
 
 #import "RCTWKWebView.h"
+#import "RCTWKProcessPoolManager.h"
 #import <React/RCTBridge.h>
 #import <React/RCTUtils.h>
 #import <React/RCTUIManager.h>
@@ -23,7 +24,7 @@ RCT_EXPORT_MODULE()
 
 - (UIView *)view
 {
-  RCTWKWebView *webView = [[RCTWKWebView alloc] initWithProcessPool:[[WKProcessPool alloc] init]];
+  RCTWKWebView *webView = [[RCTWKWebView alloc] initWithProcessPool:[RCTWKProcessPoolManager sharedPool]];
   webView.delegate = self;
   return webView;
 }

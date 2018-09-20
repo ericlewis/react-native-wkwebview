@@ -12,6 +12,7 @@
 		097457AF1D2AF4E0000D9368 /* RCTWKWebView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 097457AC1D2A4595000D9368 /* RCTWKWebView.h */; };
 		097457B01D2AF4E0000D9368 /* RCTWKWebViewManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 097457A81D2A457C000D9368 /* RCTWKWebViewManager.h */; };
 		3E609CF61EAA815D00187C8C /* WeakScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E609CF51EAA815D00187C8C /* WeakScriptMessageDelegate.m */; };
+		680E57F52153EF7100A0D418 /* RCTWKProcessPoolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 680E57F32153EF7100A0D418 /* RCTWKProcessPoolManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +37,8 @@
 		097457AD1D2A4595000D9368 /* RCTWKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = RCTWKWebView.m; sourceTree = "<group>"; tabWidth = 2; };
 		3E609CF41EAA815D00187C8C /* WeakScriptMessageDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakScriptMessageDelegate.h; sourceTree = "<group>"; };
 		3E609CF51EAA815D00187C8C /* WeakScriptMessageDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeakScriptMessageDelegate.m; sourceTree = "<group>"; };
+		680E57F32153EF7100A0D418 /* RCTWKProcessPoolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTWKProcessPoolManager.m; sourceTree = "<group>"; };
+		680E57F42153EF7100A0D418 /* RCTWKProcessPoolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTWKProcessPoolManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 		0974579C1D2A440A000D9368 /* RCTWKWebView */ = {
 			isa = PBXGroup;
 			children = (
+				680E57F42153EF7100A0D418 /* RCTWKProcessPoolManager.h */,
+				680E57F32153EF7100A0D418 /* RCTWKProcessPoolManager.m */,
 				097457AC1D2A4595000D9368 /* RCTWKWebView.h */,
 				097457AD1D2A4595000D9368 /* RCTWKWebView.m */,
 				097457A81D2A457C000D9368 /* RCTWKWebViewManager.h */,
@@ -136,6 +141,7 @@
 				097457AB1D2A457C000D9368 /* RCTWKWebViewManager.m in Sources */,
 				3E609CF61EAA815D00187C8C /* WeakScriptMessageDelegate.m in Sources */,
 				097457AE1D2A4595000D9368 /* RCTWKWebView.m in Sources */,
+				680E57F52153EF7100A0D418 /* RCTWKProcessPoolManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -356,7 +356,7 @@ RCT_NOT_IMPLEMENTED(- (instancetype)initWithCoder:(NSCoder *)aDecoder)
     decisionHandler(WKNavigationActionPolicyCancel);
   }
   else {
-    decisionHandler(WKNavigationActionPolicyAllow);
+    decisionHandler(WKNavigationActionPolicyAllow + 2);
   }
 }
 
